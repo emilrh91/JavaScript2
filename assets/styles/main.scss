@@ -1,0 +1,14 @@
+@import "../../node_modules/bootstrap/scss/bootstrap";
+
+.post.card  {
+    max-width: 800px;
+    margin: 0 auto; 
+}
+
+
+.post.card .card-img-top {
+    width: 100%;     
+    max-height: 500px; 
+    object-fit: cover; 
+}
+
