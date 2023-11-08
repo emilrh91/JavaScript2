@@ -62,7 +62,7 @@ function isValidEmailDomain(email) {
  * Redirects the user to the login page.
  */
 function redirectToLogin() {
-    window.location.href = "../../../JavaScript2/pages/login.html";
+    window.location.href = "../pages/login.html";
 }
 
 /**

@@ -44,7 +44,7 @@ function processLoginResponse(response) {
             localStorage.setItem('user_email', response.email);
         }
 
-        window.location.href = '../../../JavaScript2/pages/feed.html';
+        window.location.href = '../pages/feed.html';
     } else {
         alert("Login failed.");
     }
