@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login</title>
+    <script type="module" src="../js/views/login.js"></script>
+    <link rel="stylesheet" href="../assets/styles/main.css" />
+  </head>
+  <body>
+    <main class="container mt-5">
+      <form id="loginForm">
+        <h1 class="mb-4">Log In</h1>
+    
+        <div class="form-group row">
+          <label for="email" class="col-md-2 col-form-label">Email:</label>
+          <div class="col-md-6">
+            <input
+              type="email"
+              id="email"
+              name="email"
+              required
+              class="form-control"
+            />
+          </div>
+        </div>
+    
+        <div class="form-group row mt-4">
+          <label for="password" class="col-md-2 col-form-label">Password:</label>
+          <div class="col-md-6">
+            <input
+              type="password"
+              id="password"
+              name="password"
+              required
+              class="form-control"
+            />
+          </div>
+        </div>
+    
+        <div class="form-group">
+          <button type="submit" class="btn btn-primary">Login</button>
+        </div>
+    
+        <div>
+          <p>
+            Don't have an account? <a href="register.html">Register here</a>.
+          </p>
+        </div>
+      </form>
+    </main>
+  </body>
+</html>

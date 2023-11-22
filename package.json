@@ -1,0 +1,27 @@
+{
+  "name": "javascript2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass": "node-sass --watch assets/styles/main.scss assets/styles/main.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/emilrh91/JavaScript2.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/emilrh91/JavaScript2/issues"
+  },
+  "homepage": "https://github.com/emilrh91/JavaScript2#readme",
+  "dependencies": {
+    "bootstrap": "^5.3.1"
+  },
+  "devDependencies": {
+    "node-sass": "^9.0.0"
+  }
+}
